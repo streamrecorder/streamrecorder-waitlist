@@ -5,15 +5,10 @@ export default function Global() {
         <div className="py-40 bg-black w-full">
             <div className="max-w-7xl mx-auto text-center">
                 <p className="font-bold text-xl md:text-4xl text-white">
-                    Global{" "}
-                    <span className="text-neutral-400">
-                        Network
-                    </span>
+                    Global Network
                 </p>
                 <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-                    Providing fast speeds anywhere in the world, with a network specially optimized for the Asian
-                    region. We deliver more stable and faster services to users in Singapore, South Korea, China and
-                    Japan.
+                    Providing fast speeds anywhere in the world with our server based in Singapore
                 </p>
             </div>
             <WorldMap
