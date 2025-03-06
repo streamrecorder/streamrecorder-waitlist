@@ -11,6 +11,8 @@ const features = [
     {name: "HD Video", included: "free"},
     {name: "4K Video", included: "starter"},
     {name: "Observe Streamers", included: "free"},
+    {name: "Unlimited Dance Cut Downloads", included: "starter"},
+    {name: "Unlimited Dance Cut Streaming", included: "starter"},
     {name: "100 Video Downloads (Monthly)", included: "starter"},
     {name: "300 Video Downloads (additional $0.007 per hour)", included: "pro"},
     {name: "10 Hours Video Streaming (Monthly)", included: "free"},
