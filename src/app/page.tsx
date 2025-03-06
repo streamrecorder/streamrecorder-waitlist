@@ -9,9 +9,6 @@ import {PricingTable} from "@/components/pricing-table";
 const features = [
     {name: "Platform Access", included: "free"},
 
-    {name: "HD Video", included: "free"},
-    {name: "4K Video", included: "starter"},
-
     {name: "Observe Streamers", included: "free"},
 
     {name: "Keep video permanently ($0.2 per video)", included: "starter"},
@@ -25,12 +22,15 @@ const features = [
     {name: "10 Hours Video Streaming", included: "free", excluded: "starter"},
     {name: "Unlimited Video Streaming", included: "starter"},
 
-    {name: "Last 30 Day 720p Videos", included: "free", excluded: "starter"},
-    {name: "Last 90 Day 720p Videos", included: "starter", excluded: "pro"},
-    {name: "Last 180 Day 720p Videos", included: "pro"},
+    {name: "Exclusive Video [Last 30 Day]", included: "starter", excluded: "pro"},
+    {name: "Exclusive Video [Last 180 Day]", included: "pro"},
 
-    {name: "Last 90 Day 4K Videos", included: "starter", excluded: "pro"},
-    {name: "Last 180 Day 4K Videos", included: "pro"}
+    {name: "720p Videos [Last 30 Day]", included: "free", excluded: "starter"},
+    {name: "720p Videos [Last 90 Day]", included: "starter", excluded: "pro"},
+    {name: "720p Videos [Last 180 Day]", included: "pro"},
+
+    {name: "4K Videos [Last 90 Day]", included: "starter", excluded: "pro"},
+    {name: "4K Videos [Last 180 Day]", included: "pro"},
 ];
 
 const plans = [
