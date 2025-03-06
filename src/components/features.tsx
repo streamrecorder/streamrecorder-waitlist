@@ -1,5 +1,5 @@
 import {cn} from "@/lib/utils";
-import {Accessibility, Cloud, DollarSign, FileLock2, HelpCircle, ShoppingCart, UserRoundPlus} from "lucide-react";
+import {Accessibility, Brain, Cloud, DollarSign, FileLock2, HelpCircle, ShoppingCart, UserRoundPlus} from "lucide-react";
 
 const features = [
     {
@@ -18,8 +18,8 @@ const features = [
         icon: <Cloud/>
     },
     {
-        title: "Referral system",
-        description: "StreamRecorder has a referral system that gives you a discount.",
+        title: "Affiliate program",
+        description: "Easy way to make 30% of every sale you refer to StreamRecorder",
         icon: <UserRoundPlus/>
     },
     {
@@ -31,6 +31,11 @@ const features = [
         title: "Sell your credentials",
         description: "StreamRecorder purchases credentials that have access to exclusive content and pay per recorded stream.",
         icon: <FileLock2/>
+    },
+    {
+        title: "AI Powered",
+        description: "Find videos using screenshots or by entering text descriptions with our advanced AI technology.",
+        icon: <Brain/>
     },
     {
         title: "Customer Support",

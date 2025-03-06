@@ -28,7 +28,7 @@ export default function Hero() {
                             <span>StreamRecorder is</span>
                             <span
                                 className="relative flex w-full justify-center overflow-hidden text-[#F4F4F5]/95 text-center md:pb-4 md:pt-1">
-                &nbsp;
+                                &nbsp;
                                 {titles.map((title, index) => (
                                     <motion.span
                                         key={index}
@@ -50,7 +50,7 @@ export default function Hero() {
                                         {title}
                                     </motion.span>
                                 ))}
-              </span>
+                            </span>
                         </h1>
 
                         <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
