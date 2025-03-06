@@ -1,6 +1,6 @@
 import {useEffect, useMemo, useState} from "react";
 import {motion} from "framer-motion";
-import {MoveRight, PhoneCall} from "lucide-react";
+import {MoveRight} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
@@ -61,13 +61,13 @@ export default function Hero() {
                     </div>
                     <div className="flex flex-row gap-3">
                         <Link href="https://t.me/nillpoe">
-                            <Button size="lg" className="gap-4 transition-colors" variant="outline">
-                                Contact us <PhoneCall className="w-4 h-4"/>
+                            <Button variant="outline">
+                                Telegram
                             </Button>
                         </Link>
                         <Link href="https://accounts.streamrecorder.app/waitlist">
-                            <Button size="lg" className="gap-4 transition-colors">
-                                Join waitlist here <MoveRight className="w-4 h-4"/>
+                            <Button effect="expandIcon" icon={MoveRight} iconPlacement="right">
+                                Join waitlist
                             </Button>
                         </Link>
                     </div>

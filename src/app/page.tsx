@@ -8,35 +8,26 @@ import {PricingTable} from "@/components/pricing-table";
 
 const features = [
     {name: "Platform Access", included: "free"},
-
     {name: "Observe Streamers", included: "free"},
 
-    {name: "Store Your Video Permanently ($0.2 per video)", included: "starter"},
+    {name: "Private Storage ($0.05 per video)", included: "free"},
 
-    {name: "Unlimited Dance Cut Downloads", included: "starter"},
-    {name: "Unlimited Dance Cut Streaming", included: "starter"},
+    {name: "Video [15 Downloads, 30 Hours Streaming]", included: "free", excluded: "starter"},
+    {name: "Video [Unlimited Download, Streaming]", included: "starter"},
 
-    {name: "5 Video Downloads", included: "free", excluded: "starter"},
-    {name: "Unlimited Video Downloads", included: "starter"},
-
-    {name: "20 Exclusive Video Downloads", included: "starter"},
-    {name: "Unlimited Exclusive Video Downloads", included: "pro"},
-
-    {name: "10 Hours Video Streaming", included: "free", excluded: "starter"},
-    {name: "Unlimited Video Streaming", included: "starter"},
-
-    {name: "Exclusive Video [Last 30 Day]", included: "starter", excluded: "pro"},
-    {name: "Exclusive Video [Last 60 Day]", included: "pro"},
+    {name: "Dance Cut [Unlimited Download, Streaming]", included: "starter"},
 
     {name: "720p Videos [Last 30 Day]", included: "free", excluded: "starter"},
-    {name: "720p Videos [Last 90 Day]", included: "starter", excluded: "pro"},
-    {name: "720p Videos [Last 180 Day]", included: "pro"},
+    {name: "1080p Videos [Last 30 Day]", included: "starter", excluded: "pro"},
+    {name: "1080p Videos [Last 60 Day]", included: "pro"},
 
-    {name: "4K Videos [Last 90 Day]", included: "starter", excluded: "pro"},
-    {name: "4K Videos [Last 180 Day]", included: "pro"},
+    {name: "100 AI-Powered Search", included: "starter", excluded: "pro"},
+    {name: "250 AI-Powered Search", included: "pro"},
 
-    {name: "Notification [Email, Telegram]", included: "starter", excluded: "pro"},
-    {name: "Notification [Email, Telegram, Discord]", included: "pro"}
+    {name: "Email & Telegram Notifications", included: "starter"},
+
+    {name: "Less-Ad Experience", included: "starter", excluded: "pro"},
+    {name: "Ad-Free Experience", included: "pro"}
 ];
 
 const plans = [

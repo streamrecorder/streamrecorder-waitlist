@@ -29,11 +29,11 @@ const features = [
     },
     {
         title: "Sell your credentials",
-        description: "StreamRecorder purchases credentials that have access to exclusive content and pay per recorded stream.",
+        description: "StreamRecorder allows you to sell your stream access credentials, record them. We'll buy the credentials from you, and you’ll earn revenue based on the rarity and demand of the content.",
         icon: <FileLock2/>
     },
     {
-        title: "AI Powered",
+        title: "AI-Powered search",
         description: "Find videos using screenshots or by entering text descriptions with our advanced AI technology.",
         icon: <Brain/>
     },

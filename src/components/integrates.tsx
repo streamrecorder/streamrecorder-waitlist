@@ -4,7 +4,7 @@ import Image from "next/image";
 const brands = [
     {
         name: "Twitch",
-        logo: "https://cdn.streamrecorder.app/twitch.svg"
+        logo: "https://cdn.streamrecorder.app/twitch.svg?"
     },
     {
         name: "SOOP",
