@@ -14,12 +14,11 @@ const features = [
     {name: "Unlimited Dance Cut Downloads", included: "starter"},
     {name: "Unlimited Dance Cut Streaming", included: "starter"},
     {name: "Keep video permanently ($0.2 per video)", included: "starter"},
-    {name: "100 Video Downloads (Monthly)", included: "starter", excluded: "pro"},
-    {name: "300 Video Downloads (additional $0.007 per hour)", included: "pro"},
-    {name: "10 Hours Video Streaming (Monthly)", included: "free", excluded: "pro"},
-    {name: "30 Hours Video Streaming (Monthly)", included: "starter", excluded: "pro"},
-    {name: "100 Hours Video Streaming (additional $0.0018 per 15 minutes)", included: "pro"},
-    {name: "Last 5 Day 720p Videos", included: "free", excluded: "starter"},
+    {name: "5 Video Downloads", included: "free", excluded: "starter"},
+    {name: "Unlimited Video Downloads", included: "starter"},
+    {name: "10 Hours Video Streaming", included: "free", excluded: "pro"},
+    {name: "Unlimited Video Streaming", included: "starter"},
+    {name: "Last 30 Day 720p Videos", included: "free", excluded: "starter"},
     {name: "Last 90 Day 720p Videos", included: "starter"},
     {name: "Last 90 Day 4K Videos", included: "starter"}
 ];
