@@ -19,6 +19,7 @@ const features = [
     {name: "5 Video Downloads", included: "free", excluded: "starter"},
     {name: "Unlimited Video Downloads", included: "starter"},
 
+    {name: "20 Exclusive Video Downloads", included: "starter"},
     {name: "Unlimited Exclusive Video Downloads", included: "pro"},
 
     {name: "10 Hours Video Streaming", included: "free", excluded: "starter"},
@@ -34,9 +35,8 @@ const features = [
     {name: "4K Videos [Last 90 Day]", included: "starter", excluded: "pro"},
     {name: "4K Videos [Last 180 Day]", included: "pro"},
 
-    {name: "Email Notification", included: "starter"},
-    {name: "Telegram Notification", included: "starter"},
-    {name: "Discord Notification", included: "pro"}
+    {name: "Notification [Email, Telegram]", included: "starter", excluded: "pro"},
+    {name: "Notification [Email, Telegram, Discord]", included: "pro"}
 ];
 
 const plans = [
