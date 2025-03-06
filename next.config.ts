@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+import {withPlausibleProxy} from "next-plausible";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = withPlausibleProxy()({
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "cdn.streamrecorder.app",
+                port: "",
+                pathname: "/**",
+                search: ""
+            }
+        ]
+    }
+});
