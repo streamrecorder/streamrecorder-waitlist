@@ -8,7 +8,8 @@ export type PlanLevel = "starter" | "pro" | "all" | string
 
 export interface PricingFeature {
     name: string;
-    included: PlanLevel | null;
+    included?: PlanLevel;
+    excluded?: PlanLevel;
 }
 
 export interface PricingPlan {
@@ -138,14 +139,10 @@ export function PricingTable({
                                     ))}
                                 </div>
                             </div>
-                            {features.map((feature) => (
+                            {features.map((feature) => shouldShow(feature.included, feature.excluded, selectedPlan) && (
                                 <div
                                     key={feature.name}
-                                    className={cn(
-                                        "flex items-center p-4 transition-colors",
-                                        shouldShowCheck(feature.included, selectedPlan) &&
-                                        "bg-blue-50/50 dark:bg-blue-900/20"
-                                    )}
+                                    className="flex items-center p-4 transition-colors bg-blue-50/50 dark:bg-blue-900/20"
                                 >
                                     <div className="flex-1 text-sm">{feature.name}</div>
                                     <div className="flex items-center gap-8 text-sm">
@@ -157,12 +154,10 @@ export function PricingTable({
                                                     plan.level === selectedPlan && "font-medium"
                                                 )}
                                             >
-                                                {shouldShowCheck(feature.included, plan.level) ? (
+                                                {shouldShow(feature.included, feature.excluded, plan.level) ? (
                                                     <Check className="w-5 h-5 text-blue-500"/>
                                                 ) : (
-                                                    <span className="text-zinc-300 dark:text-zinc-700">
-                            -
-                          </span>
+                                                    <span className="text-zinc-300 dark:text-zinc-700">-</span>
                                                 )}
                                             </div>
                                         ))}
@@ -189,11 +184,15 @@ export function PricingTable({
     );
 }
 
-function shouldShowCheck(
+function shouldShow(
     included: PricingFeature["included"],
+    excluded: PricingFeature["excluded"],
     level: string
 ): boolean {
+    if (excluded === level) return false;
+    if (excluded === "starter" && level === "pro") return false;
+
     if (included === "free") return true;
-    if (included === "pro" && level === "pro") return true;
-    return included === "starter" && (level === "starter" || level === "pro");
+    if (included === level) return true;
+    return included === "starter" && level === "pro";
 }

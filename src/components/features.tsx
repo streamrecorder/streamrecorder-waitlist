@@ -19,7 +19,7 @@ const features = [
     },
     {
         title: "Affiliate program",
-        description: "Easy way to make 30% of every sale you refer to StreamRecorder",
+        description: "Earn 30% of every sale you refer to StreamRecorder",
         icon: <UserRoundPlus/>
     },
     {
