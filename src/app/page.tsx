@@ -26,8 +26,11 @@ const features = [
     {name: "Unlimited Video Streaming", included: "starter"},
 
     {name: "Last 30 Day 720p Videos", included: "free", excluded: "starter"},
-    {name: "Last 90 Day 720p Videos", included: "starter"},
-    {name: "Last 90 Day 4K Videos", included: "starter"}
+    {name: "Last 90 Day 720p Videos", included: "starter", excluded: "pro"},
+    {name: "Last 180 Day 720p Videos", included: "pro"},
+
+    {name: "Last 90 Day 4K Videos", included: "starter", excluded: "pro"},
+    {name: "Last 180 Day 4K Videos", included: "pro"}
 ];
 
 const plans = [
