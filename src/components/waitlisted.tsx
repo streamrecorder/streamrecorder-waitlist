@@ -14,7 +14,7 @@ export default function Waitlisted() {
 
                         <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
                             Thank you for your interest.
-                            We've added you to our waitlist and will notify you as soon as access becomes available.
+                            We&apos;ve added you to our waitlist and will notify you as soon as access becomes available.
                             We appreciate your patience.
                         </p>
                     </div>
