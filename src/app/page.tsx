@@ -1,7 +1,6 @@
 "use client";
 
 import Hero from "@/components/hero";
-import Global from "@/components/global";
 import Integrates from "@/components/integrates";
 import Features from "@/components/features";
 import {PricingTable} from "@/components/pricing-table";
@@ -61,7 +60,6 @@ export default function Home() {
                 defaultInterval="monthly"
                 buttonClassName="hidden"
             />
-            <Global/>
         </div>
     );
 }
