@@ -1,8 +1,6 @@
 import React from "react";
 import type {Metadata} from "next";
 import NextTopLoader from "nextjs-toploader";
-import {Analytics} from "@vercel/analytics/react";
-import {SpeedInsights} from "@vercel/speed-insights/next";
 import {ClerkProvider} from "@clerk/nextjs";
 import "./globals.css";
 import PlausibleProvider from "next-plausible";
@@ -36,8 +34,6 @@ export default function RootLayout({
                 <NextTopLoader color="#5865F2" showSpinner={false}/>
                 <div className="dark min-h-screen flex flex-col">
                     {children}
-                    <Analytics/>
-                    <SpeedInsights/>
                     {process.env.NODE_ENV !== "production" && (
                         <div
                             className="fixed bottom-0 right-0 flex items-center justify-center w-6 h-6 p-3 m-8 font-mono text-xs text-black bg-white rounded-lg pointer-events-none ">

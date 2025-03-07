@@ -20,13 +20,13 @@ export default function Waitlisted() {
                     </div>
                     <div className="flex flex-row gap-3">
                         <Link href="/">
-                            <Button size="lg" className="gap-4 transition-colors" variant="outline">
+                            <Button variant="outline">
                                 Home
                             </Button>
                         </Link>
                         <Link href="https://discord.gg/MvVrrbjcSU">
-                            <Button size="lg" className="gap-4 transition-colors">
-                                Join our discord <MoveRight className="w-4 h-4"/>
+                            <Button effect="expandIcon" icon={MoveRight} iconPlacement="right">
+                                Join our discord
                             </Button>
                         </Link>
                     </div>

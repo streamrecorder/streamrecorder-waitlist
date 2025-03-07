@@ -1,45 +1,45 @@
 import {cn} from "@/lib/utils";
-import {Accessibility, Brain, Cloud, DollarSign, FileLock2, HelpCircle, ShoppingCart, UserRoundPlus} from "lucide-react";
+import {Accessibility, Brain, DollarSign, FileLock2, HelpCircle, Link2, Server, ShieldAlert} from "lucide-react";
 
 const features = [
     {
         title: "Ease of use",
-        description: "StreamRecorder is so simple you already know how to use it.",
+        description: "StreamRecorder is designed to be so intuitive that you'll know exactly how to use it from the moment you start.",
         icon: <Accessibility/>
     },
     {
         title: "Pricing like no other",
-        description: "StreamRecorder charges only for what you use. Costs are billed based on downloads and playback time.",
+        description: "StreamRecorder allows you to enjoy all services without additional costs, including unlimited downloads, streaming, and playback.",
         icon: <DollarSign/>
     },
     {
-        title: "100% Uptime guarantee",
-        description: "StreamRecorder never goes down.",
-        icon: <Cloud/>
-    },
-    {
         title: "Affiliate program",
-        description: "Earn 30% of every sale you refer to StreamRecorder",
-        icon: <UserRoundPlus/>
+        description: "Earn a 30% commission on every sale you refer to StreamRecorder, making it easy to monetize your referrals.",
+        icon: <Link2/>
     },
     {
-        title: "Sell your video",
-        description: "StreamRecorder purchases highlights video, fanroom video, and more.",
-        icon: <ShoppingCart/>
-    },
-    {
-        title: "Sell your credentials",
-        description: "StreamRecorder allows you to sell your stream access credentials, record them. We'll buy the credentials from you, and you’ll earn revenue based on the rarity and demand of the content.",
-        icon: <FileLock2/>
+        title: "Private storage",
+        description: "Easily import videos into your private storage, ensuring they are securely saved and preserved for as long as you need.",
+        icon: <Server/>
     },
     {
         title: "AI-Powered search",
-        description: "Find videos using screenshots or by entering text descriptions with our advanced AI technology.",
+        description: "Find the videos you’re looking for using screenshots or text descriptions with our powerful AI technology",
         icon: <Brain/>
     },
     {
-        title: "Customer Support",
-        description: "StreamRecorder is always ready to help you.",
+        title: "Sell your video, credentials",
+        description: "StreamRecorder buys your stream access credentials, allowing you to earn revenue based on the exclusivity and demand of your content.",
+        icon: <FileLock2/>
+    },
+    {
+        title: "Privacy by default",
+        description: "We keep your personal information private and secure. We never sell or rent your personal information. — your privacy is our priority.",
+        icon: <ShieldAlert/>
+    },
+    {
+        title: "Customer support",
+        description: "Our support team is always here to assist you whenever you need help.",
         icon: <HelpCircle/>
     }
 ];
