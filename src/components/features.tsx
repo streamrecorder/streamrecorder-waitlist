@@ -1,5 +1,5 @@
 import {cn} from "@/lib/utils";
-import {Accessibility, Brain, DollarSign, FileLock2, HelpCircle, Link2, Server, ShieldAlert} from "lucide-react";
+import {Accessibility, Brain, ChartBar, DollarSign, FileLock2, Link2, Server, ShieldAlert} from "lucide-react";
 
 const features = [
     {
@@ -13,22 +13,7 @@ const features = [
         icon: <DollarSign/>
     },
     {
-        title: "Affiliate program",
-        description: "Earn a 30% commission on every sale you refer to StreamRecorder, making it easy to monetize your referrals.",
-        icon: <Link2/>
-    },
-    {
-        title: "Private storage",
-        description: "Easily import videos into your private storage, ensuring they are securely saved and preserved for as long as you need.",
-        icon: <Server/>
-    },
-    {
-        title: "AI-Powered search",
-        description: "Find the videos you’re looking for using screenshots or text descriptions with our powerful AI technology",
-        icon: <Brain/>
-    },
-    {
-        title: "Sell your video, credentials",
+        title: "Sell your credentials",
         description: "StreamRecorder buys your stream access credentials, allowing you to earn revenue based on the exclusivity and demand of your content.",
         icon: <FileLock2/>
     },
@@ -38,9 +23,24 @@ const features = [
         icon: <ShieldAlert/>
     },
     {
-        title: "Customer support",
-        description: "Our support team is always here to assist you whenever you need help.",
-        icon: <HelpCircle/>
+        title: "Affiliate Program",
+        description: "Earn a 30% commission on every sale you refer to StreamRecorder, making it easy to monetize your referrals.",
+        icon: <Link2/>
+    },
+    {
+        title: "Private Storage",
+        description: "Easily import videos into your private storage, ensuring they are securely saved and preserved for as long as you need.",
+        icon: <Server/>
+    },
+    {
+        title: "AI-Powered Search",
+        description: "Find the videos you’re looking for using screenshots or text descriptions with our powerful AI technology",
+        icon: <Brain/>
+    },
+    {
+        title: "Stream Charts",
+        description: "An excellent alternative to streamcharts.com, powerful streaming analytics with no additional charges.",
+        icon: <ChartBar/>
     }
 ];
 
