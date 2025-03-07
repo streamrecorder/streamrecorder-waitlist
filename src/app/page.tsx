@@ -11,12 +11,13 @@ const features = [
     {name: "Video (No Download, 50 Hours Streaming)", included: "free", excluded: "starter"},
     {name: "Video (Unlimited Download, Streaming)", included: "starter"},
 
-    {name: "Dance Cut (Unlimited Download, Streaming)", included: "starter"},
+    {name: "Dance Cut (Unlimited Streaming)", included: "starter", excluded: "pro"},
+    {name: "Dance Cut (Unlimited Download, Streaming)", included: "pro"},
 
     {name: "720p Videos (Last 30 Day)", included: "free", excluded: "starter"},
     {name: "1080p Videos (Last 5 Day)", included: "free", excluded: "starter"},
     {name: "1080p Videos (Last 30 Day)", included: "starter", excluded: "pro"},
-    {name: "1080p Videos (Last 60 Day)", included: "pro"},
+    {name: "1080p Videos (Last 60 Day, Chat Replay Included)", included: "pro"},
 
     {name: "AI-Powered Search (100 Request)", included: "starter", excluded: "pro"},
     {name: "AI-Powered Search (250 Request)", included: "pro"},
