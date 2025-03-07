@@ -6,27 +6,25 @@ import Features from "@/components/features";
 import {PricingTable} from "@/components/pricing-table";
 
 const features = [
-    {name: "Private Storage ($0.1 per video)", included: "free"},
+    {name: "Private Storage ($0.1 per video)", included: "starter"},
 
-    {name: "Video (No Download, 50 Hours Streaming)", included: "free", excluded: "starter"},
-    {name: "Video (Unlimited Download, Streaming)", included: "starter"},
+    {name: "Videos (No Download, 50 Hours Streaming)", included: "free", excluded: "starter"},
+    {name: "Videos (Unlimited Download, Streaming)", included: "starter"},
 
-    {name: "Dance Cut (Unlimited Streaming)", included: "starter", excluded: "pro"},
-    {name: "Dance Cut (Unlimited Download, Streaming)", included: "pro"},
+    {name: "Dance Cuts (Unlimited Streaming)", included: "starter", excluded: "pro"},
+    {name: "Dance Cuts (Unlimited Download, Streaming)", included: "pro"},
 
     {name: "720p Videos (Last 30 Day)", included: "free", excluded: "starter"},
-    {name: "1080p Videos (Last 5 Day)", included: "free", excluded: "starter"},
-    {name: "1080p Videos (Last 30 Day)", included: "starter", excluded: "pro"},
-    {name: "1080p Videos (Last 60 Day, Chat Replay Included)", included: "pro"},
+    {name: "1080p Videos (Last 14 Day)", included: "free", excluded: "starter"},
+    {name: "1080p Videos (Last 50 Day)", included: "starter", excluded: "pro"},
+    {name: "1080p Videos (Last 100 Day, Chat Replay Included)", included: "pro"},
 
-    {name: "AI-Powered Search (100 Request)", included: "starter", excluded: "pro"},
-    {name: "AI-Powered Search (250 Request)", included: "pro"},
-
-    {name: "Stream Charts (Last 50 Day)", included: "starter", excluded: "pro"},
-    {name: "Stream Charts (Unlimited)", included: "pro"},
+    {name: "AI-Powered Search (150 Image Requests, 70 Text Requests)", included: "starter", excluded: "pro"},
+    {name: "AI-Powered Search (Unlimited Image Requests, 150 Text Requests)", included: "pro"},
 
     {name: "Email & Telegram Notifications", included: "starter"},
-    {name: "Ad-Free Experience", included: "starter"}
+    {name: "Ad-Free Experience", included: "starter"},
+    {name: "Stream Charts", included: "pro"}
 ];
 
 const plans = [
