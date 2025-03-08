@@ -8,9 +8,9 @@ import {PricingTable} from "@/components/pricing-table";
 const features = [
     {name: "Private Storage ($0.2/Video/Month, Unlimited Streaming)", included: "starter", excluded: "pro"},
 
-    {name: "5 Monitoring Tickets", included: "free", excluded: "starter"},
-    {name: "50 Monitoring Tickets", included: "starter", excluded: "pro"},
-    {name: "100 Monitoring Tickets", included: "pro"},
+    {name: "5 Monitoring Tickets (additional $1/Ticket)", included: "free", excluded: "starter"},
+    {name: "50 Monitoring Tickets (additional $0.75/Ticket)", included: "starter", excluded: "pro"},
+    {name: "100 Monitoring Tickets (additional $0.75/Ticket)", included: "pro"},
 
     {name: "Videos (Last 14 Day, 50 Hours Streaming)", included: "free", excluded: "starter"},
     {name: "Videos (Last 50 Day, Unlimited Download/Streaming)", included: "starter", excluded: "pro"},
@@ -26,10 +26,11 @@ const features = [
     {name: "AI-Powered Screenshot Search (Unlimited Requests)", included: "pro"},
 
     {name: "AI-Powered Text Search (5 Requests)", included: "free", excluded: "starter"},
-    {name: "AI-Powered Text Search (200 Requests)", included: "starter", excluded: "pro"},
-    {name: "AI-Powered Text Search (1000 Requests)", included: "pro"},
+    {name: "AI-Powered Text Search (250 Requests)", included: "starter", excluded: "pro"},
+    {name: "AI-Powered Text Search (500 Requests)", included: "pro"},
 
-    {name: "AI-Powered Similar Search (100 Requests)", included: "pro"},
+    {name: "AI-Powered Similar Search (20 Requests)", included: "pro"},
+    {name: "AI-Powered Similar Search (150 Requests)", included: "pro"},
 
     {name: "Email & Telegram Notifications", included: "starter"},
 
