@@ -8,16 +8,16 @@ import {PricingTable} from "@/components/pricing-table";
 const features = [
     {name: "Private Storage ($0.1 per video)", included: "starter"},
 
-    {name: "Videos (No Download, 50 Hours Streaming)", included: "free", excluded: "starter"},
     {name: "Videos (Unlimited Download, Streaming)", included: "starter"},
 
-    {name: "Dance Cuts (Unlimited Streaming)", included: "starter", excluded: "pro"},
-    {name: "Dance Cuts (Unlimited Download, Streaming)", included: "pro"},
+    {name: "Exclusive Videos (Unlimited Streaming)", included: "starter", excluded: "pro"},
+    {name: "Exclusive Videos (Unlimited Download, Streaming)", included: "pro"},
 
-    {name: "720p Videos (Last 30 Day)", included: "free", excluded: "starter"},
-    {name: "1080p Videos (Last 14 Day)", included: "free", excluded: "starter"},
-    {name: "1080p Videos (Last 50 Day)", included: "starter", excluded: "pro"},
-    {name: "1080p Videos (Last 100 Day, Chat Replay Included)", included: "pro"},
+    {name: "Videos (Last 14 Day, 50 Hours Streaming)", included: "free", excluded: "starter"},
+    {name: "Videos (Last 50 Day, Unlimited Download/Streaming)", included: "starter", excluded: "pro"},
+    {name: "Videos (Last 100 Day, Unlimited Download/Streaming)", included: "pro"},
+
+    {name: "Chat Replay", included: "pro"},
 
     {name: "AI-Powered Screenshot Search (150 Requests)", included: "starter", excluded: "pro"},
     {name: "AI-Powered Screenshot Search (Unlimited Requests)", included: "pro"},
