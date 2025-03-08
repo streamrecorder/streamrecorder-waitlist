@@ -21,7 +21,7 @@ const brands = [
         </svg>
     },
     {
-        name: "Kick",
+        name: "KICK",
         logo: <svg className="fill-current !w-12 !h-12" xmlns="http://www.w3.org/2000/svg" fill="none"
                    viewBox="0 0 16 16">
             <path fill="#53FC18"
