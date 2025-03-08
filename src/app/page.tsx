@@ -19,11 +19,18 @@ const features = [
     {name: "1080p Videos (Last 50 Day)", included: "starter", excluded: "pro"},
     {name: "1080p Videos (Last 100 Day, Chat Replay Included)", included: "pro"},
 
-    {name: "AI-Powered Search (150 Image Requests, 70 Text Requests)", included: "starter", excluded: "pro"},
-    {name: "AI-Powered Search (Unlimited Image Requests, 150 Text Requests)", included: "pro"},
+    {name: "AI-Powered Screenshot Search (150 Requests)", included: "starter", excluded: "pro"},
+    {name: "AI-Powered Screenshot Search (Unlimited Requests)", included: "pro"},
+
+    {name: "AI-Powered Text Search (200 Requests)", included: "starter", excluded: "pro"},
+    {name: "AI-Powered Text Search (1000 Requests)", included: "pro"},
+
+    {name: "AI-Powered Similar Search (100 Requests)", included: "pro"},
 
     {name: "Email & Telegram Notifications", included: "starter"},
+
     {name: "Ad-Free Experience", included: "starter"},
+
     {name: "Stream Charts", included: "pro"}
 ];
 
