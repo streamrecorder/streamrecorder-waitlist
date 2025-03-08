@@ -6,7 +6,7 @@ import Features from "@/components/features";
 import {PricingTable} from "@/components/pricing-table";
 
 const features = [
-    {name: "Private Storage ($0.2/Video/Month, Unlimited Streaming)", included: "starter", excluded: "pro"},
+    {name: "Private Storage ($0.2/Video/Month, Unlimited Streaming)", included: "starter"},
 
     {name: "5 Monitoring Tickets (additional $1/Ticket)", included: "free", excluded: "starter"},
     {name: "50 Monitoring Tickets (additional $0.75/Ticket)", included: "starter", excluded: "pro"},
