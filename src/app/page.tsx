@@ -21,16 +21,15 @@ const features = [
 
     {name: "Chat Replay", included: "pro"},
 
-    {name: "AI-Powered Screenshot Search (10 Requests)", included: "free", excluded: "starter"},
-    {name: "AI-Powered Screenshot Search (150 Requests)", included: "starter", excluded: "pro"},
-    {name: "AI-Powered Screenshot Search (Unlimited Requests)", included: "pro"},
+    {name: "AI-Powered Image Search (10 Requests)", included: "free", excluded: "starter"},
+    {name: "AI-Powered Image Search (150 Requests)", included: "starter", excluded: "pro"},
+    {name: "AI-Powered Image Search (Unlimited Requests)", included: "pro"},
 
     {name: "AI-Powered Text Search (5 Requests)", included: "free", excluded: "starter"},
     {name: "AI-Powered Text Search (250 Requests)", included: "starter", excluded: "pro"},
     {name: "AI-Powered Text Search (500 Requests)", included: "pro"},
 
-    {name: "AI-Powered Similar Search (20 Requests)", included: "pro"},
-    {name: "AI-Powered Similar Search (150 Requests)", included: "pro"},
+    {name: "AI-Powered Similar Search (100 Requests)", included: "pro"},
 
     {name: "Email & Telegram Notifications", included: "starter"},
 
