@@ -46,7 +46,7 @@ const plans = [
     },
     {
         name: "Starter",
-        price: {monthly: 10, yearly: 100},
+        price: {monthly: 10, yearly: 90},
         level: "starter",
         popular: true
     },
