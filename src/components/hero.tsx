@@ -60,7 +60,7 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className="flex flex-row gap-3">
-                        <Link href="https://t.me/nillpoe">
+                        <Link href="https://t.me/streamrecorder">
                             <Button variant="outline">
                                 Telegram
                             </Button>

@@ -24,9 +24,9 @@ export default function Waitlisted() {
                                 Home
                             </Button>
                         </Link>
-                        <Link href="https://discord.gg/MvVrrbjcSU">
+                        <Link href="https://t.me/streamrecorder">
                             <Button effect="expandIcon" icon={MoveRight} iconPlacement="right">
-                                Join our discord
+                                Join our Channel
                             </Button>
                         </Link>
                     </div>
